@@ -1,4 +1,4 @@
-import BehaviorSubject from './behavior_subject.js';
+import { BehaviorSubject } from 'rxjs';
 
 var behaviourSubject = new BehaviorSubject(0);
 

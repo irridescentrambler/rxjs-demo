@@ -5,6 +5,6 @@ require('babel-register')({
 
 // Import the rest of our application.
 //module.exports = require('./subject_example.js');
-//module.exports = require('./observable_example.js');
+module.exports = require('./observable_example.js');
 //module.exports = require('./behaviour_subject_example.js');
-module.exports = require('./replay_subject_example.js');
+//module.exports = require('./replay_subject_example.js');

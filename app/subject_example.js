@@ -1,4 +1,6 @@
-import subject from './subject.js'
+import { Subject } from 'rxjs';
+
+var subject = new Subject();
 
 var observer1 = subject.subscribe(
   (x) => { console.log("Observer1 :-" + x) }

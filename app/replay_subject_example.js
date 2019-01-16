@@ -1,4 +1,4 @@
-import ReplaySubject from './replay_subject.js';
+import { ReplaySubject } from 'rxjs';
 
 var replaySubject = new ReplaySubject(4);
 

@@ -1,4 +1,4 @@
-import Observable from './observable.js'
+import { Observable } from 'rxjs'
 
 var observable = Observable.create((observable) => {
   observable.next(1);
